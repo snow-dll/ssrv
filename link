@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+nasm -f elf64 -o main.o main.asm
+ld -o run main.o
